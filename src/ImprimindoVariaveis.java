@@ -1,18 +1,17 @@
 public class ImprimindoVariaveis {
-
-    //Isto é um comentário
-
-    /*
-    * Comentário em bloco
-    *
-    * */
-
-    /***
-     * Esse é o método main
-     * @param args parametro de entrada do metodo main
-     */
     public static void main(String[] args){
-        int idadeDosPaisParaCadastro = 10;
-        System.out.println("A idade é: " + idadeDosPaisParaCadastro);
+        int idade = 10;
+        double salarioDouble = 3000;
+        float salarioFloat = 3000;
+        byte idadeByte = 12;
+        short idadeShort = 32767;
+        boolean verdadeiro = true;
+        boolean falso = false;
+        long numeroGrande = 1000l;
+        char caractere = '\u0041'; //2 bytes - ver tabela unicode
+        String nome = "Rafael";
+
+        System.out.println( nome +" de idade: " + idade);
     }
 }
+
