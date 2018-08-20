@@ -1,9 +1,14 @@
 public class Operadores {
     public static void main(String[] args){
-        int numero1 = 10;
-        int numero2 = 20;
-        int soma = numero1 + numero2;
+        int numeroInteiro = 10;
+        long numeroLong = 200000L;
 
-        System.out.println("O valor da soma é " + soma);
+        double numeroDouble = 10d;
+        float numeroFloat = 20f;
+        numeroFloat = (float) numeroDouble;
+        int resto = 20%2;
+        System.out.println("Resto da divisão " + resto);
+        System.out.println(numeroDouble);
+
     }
 }
